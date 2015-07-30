@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.dflabs.toolbar" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.SimpleToolbarActivity"/>
+        <activity android:name=".activities.ExtendedToolbarActivity"/>
+        <activity android:name=".activities.FloatingActionExtendedToolbarActivity"/>
+        <activity android:name=".activities.FloatingActionToolbarActivity"/>
+        <activity android:name=".activities.HideOnScrollToolbarActivity"/>
+        <activity android:name=".activities.MinimizeOnScrollToolbarActivity"/>
+        <activity android:name=".activities.ParallaxOnScrollToolbarActivity"/>
+        <activity android:name=".activities.TabsToolbarActivity"/>
+        <activity android:name=".activities.SpinnerToolbarActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="toolbars">
+        <item>Simple Toolbar</item>
+        <item>Extended Toolbar</item>
+        <item>Floating Action Toolbar</item>
+        <item>Hide on scroll Toolbar</item>
+        <item>Fixed size on scroll Toolbar</item>
+        <item>Parallax on scroll Toolbar</item>
+        <item>Tabs Toolbar</item>
+    </string-array>
+</resources>
